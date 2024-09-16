@@ -3,6 +3,7 @@
 #include "bike.h"
 #include "coord_event_weather.h"
 #include "daycare.h"
+#include "debug.h"
 #include "faraway_island.h"
 #include "event_data.h"
 #include "event_object_movement.h"
@@ -35,7 +36,6 @@
 #include "constants/songs.h"
 #include "constants/trainer_hill.h"
 
-#include "debug.h"
 
 static EWRAM_DATA u8 sWildEncounterImmunitySteps = 0;
 static EWRAM_DATA u16 sPrevMetatileBehavior = 0;
